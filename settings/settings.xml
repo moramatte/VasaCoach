@@ -1,0 +1,29 @@
+<settings>
+
+    <setting propertyKey="@Properties.Smagan" title="@Strings.Smagan">
+        <settingConfig type="number" />
+    </setting>
+	<setting propertyKey="@Properties.Mangsbodarna" title="@Strings.Mangsbodarna">
+        <settingConfig type="number" />
+    </setting>
+	<setting propertyKey="@Properties.Risberg" title="@Strings.Risberg">
+        <settingConfig type="number" />
+    </setting>
+	<setting propertyKey="@Properties.Evertsberg" title="@Strings.Evertsberg">
+        <settingConfig type="number" />
+    </setting>
+	<setting propertyKey="@Properties.Oxberg" title="@Strings.Oxberg">
+        <settingConfig type="number" />
+    </setting>
+	<setting propertyKey="@Properties.Hokberg" title="@Strings.Hokberg">
+        <settingConfig type="number" />
+    </setting>
+	<setting propertyKey="@Properties.Eldris" title="@Strings.Eldris">
+        <settingConfig type="number" />
+    </setting>
+	<setting propertyKey="@Properties.Mora" title="@Strings.Mora">
+        <settingConfig type="number" />
+    </setting>
+	
+
+</settings>

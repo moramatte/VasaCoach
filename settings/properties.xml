@@ -1,0 +1,15 @@
+<properties>
+
+    <property id="BackgroundColor" type="number">0x000000</property>
+    <property id="ForegroundColor" type="number">0xFF0000</property>
+	<property id="Smagan" type="number">0x000038</property>
+	<property id="Mangsbodarna" type="number">0x000030</property>
+	<property id="Risberg" type="number">0x000026</property>
+	<property id="Evertsberg" type="number">0x000033</property>
+	<property id="Oxberg" type="number">0x000035</property>
+	<property id="Hokberg" type="number">0x000027</property>
+	<property id="Eldris" type="number">0x000027</property>
+	<property id="Mora" type="number">0x000020</property>
+		  
+
+</properties>

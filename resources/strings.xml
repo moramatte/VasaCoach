@@ -1,0 +1,11 @@
+<resources>
+    <string id="AppName">VasaCoach</string>
+    <string id="Smagan">Smågan</string>
+	<string id="Mangsbodarna">Mångsbodarna</string>
+	<string id="Risberg">Risberg</string>
+	<string id="Evertsberg">Evertsberg</string>
+	<string id="Oxberg">Oxberg</string>
+	<string id="Hokberg">Hökberg</string>
+	<string id="Eldris">Eldris</string>
+	<string id="Mora">Mora</string>
+</resources>
