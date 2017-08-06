@@ -10,7 +10,7 @@ using Toybox.System as Sys;
 using Toybox.Lang as Lang;
 using Toybox.Activity as Act;
 
-class PositionSampleView extends Ui.DataField {
+class VasaCoachField extends Ui.DataField {
 
  enum
     {
@@ -23,7 +23,7 @@ class PositionSampleView extends Ui.DataField {
     var counter = 0;
     var mLapCertainty = "";
     hidden var mTimerState = STOPPED;
-    var locString = "";
+    var locString;
 
     function initialize() {
         DataField.initialize();
@@ -50,7 +50,7 @@ class PositionSampleView extends Ui.DataField {
     
      function onTimerLap()
     {
-        mLapNumber++;
+       
     }
 
     //! The timer was started, so set the state to running.
@@ -85,12 +85,17 @@ class PositionSampleView extends Ui.DataField {
         mLapCertainty = "";
     }
 
-     function compute(info)
+    function compute(info)
     {
+         if (info == null || info.currentLocation == null){
+             return;
+         }
+         
          counter = counter +1 ;
          posnInfo = info.currentLocation;
          
-         locString = info.currentLocation.toDegrees();
+        locString = info.currentLocation.toDegrees();
+        
     }
 
     //! Update the view

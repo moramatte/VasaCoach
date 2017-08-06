@@ -42,7 +42,7 @@ class PositionSampleApp extends App.AppBase {
 
     //! Return the initial view of your application here
     function getInitialView() {
-        positionView = new PositionSampleView();
+        positionView = new VasaCoachField();
         return [ positionView ];
     }
 
