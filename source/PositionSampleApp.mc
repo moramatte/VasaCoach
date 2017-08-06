@@ -11,10 +11,6 @@ class PositionSampleApp extends App.AppBase {
 
     var positionView;
     
-    var smagan = "Smågan", mangsbodarna = "Mångsbodarna";
-    
-    var checkPoints = ["Start", "Smågan", "Mångsbodarna", "Risberg", "Evertsberg", "Oxberg", "Hökberg", "Eldris", "Mora"];
-
     function initialize() {
         AppBase.initialize();
     }
@@ -33,12 +29,8 @@ class PositionSampleApp extends App.AppBase {
         positionView.setPosition(info);
         
         
-    }
-    
-    function checkPoint(info) {
-       
-        
-    }
+    }    
+   
 
     //! Return the initial view of your application here
     function getInitialView() {

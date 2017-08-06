@@ -18,12 +18,17 @@ class VasaCoachField extends Ui.DataField {
         PAUSED,
         RUNNING
     }
+    
+    var smagan = "Smågan", mangsbodarna = "Mångsbodarna";    
+    var checkPoints = ["Start", "Smågan", "Mångsbodarna", "Risberg", "Evertsberg", "Oxberg", "Hökberg", "Eldris", "Mora"];
 
     var posnInfo = null;
     var counter = 0;
     var mLapCertainty = "";
     hidden var mTimerState = STOPPED;
     var locString;
+    
+    var lastCheckPoint;
 
     function initialize() {
         DataField.initialize();
@@ -35,6 +40,17 @@ class VasaCoachField extends Ui.DataField {
         {
             mLapCertainty = "?";
         }
+    }
+    
+    function checkLocation(loc){
+       if (lastCheckPoint == null){
+           lastCheckPoint = checkPoints[0];
+           return;
+       }
+       
+       if (lastCheckPoint == checkPoints[0]){
+           
+       }
     }
 
     //! Load your resources here
