@@ -35,23 +35,37 @@ class VasaCoachField extends Ui.DataField {
 
         var info = Act.getActivityInfo();
 
-        //! If the activity timer is greater than 0, then we don't know the lap or timer state.
+        //! If  the activity timer is greater than 0, then we don't know the lap or timer state.
         if( (info.timerTime != null) && (info.timerTime > 0) )
         {
             mLapCertainty = "?";
         }
+        
+        lastCheckPoint = checkPoints[0];
     }
     
-    function checkLocation(loc){
+    function checkLocation(currentCheckPoint, loc){
        if (lastCheckPoint == null){
            lastCheckPoint = checkPoints[0];
-           return;
+           return 1;
        }
        
        if (lastCheckPoint == checkPoints[0]){
            
        }
+       
+       return "Start";       
+       
     }
+    
+    // Unit test to check if 2 + 2 == 4
+	(:test)
+	function startIsSetAsStartingPoint(logger) {
+    	var positionView = new VasaCoachField();
+
+    	var result = positionView.checkLocation(positionView.lastCheckPoint, null);
+    	return (result.equals("Start")); // returning true indicates pass, false indicates failure
+	}
 
     //! Load your resources here
     function onLayout(dc) {
@@ -111,6 +125,8 @@ class VasaCoachField extends Ui.DataField {
          posnInfo = info.currentLocation;
          
         locString = info.currentLocation.toDegrees();
+        
+        
         
     }
 

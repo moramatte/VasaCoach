@@ -26,8 +26,7 @@ class PositionSampleApp extends App.AppBase {
     }
 
     function onPosition(info) {
-        positionView.setPosition(info);
-        
+        positionView.setPosition(info);        
         
     }    
    
