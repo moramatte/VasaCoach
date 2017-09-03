@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="75" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="76" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="78" pc="268435478" symbol="initialize"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="81" pc="268435495" symbol="initialize"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="83" pc="268435528" symbol="initialize"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="86" pc="268435544" symbol="initialize"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="89" pc="268435567" symbol="checkLocation"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="90" pc="268435571" symbol="checkLocation"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="93" pc="268435596" symbol="checkLocation"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="94" pc="268435621" symbol="checkLocation"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="96" pc="268435686" symbol="checkLocation"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="97" pc="268435709" symbol="checkLocation"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="101" pc="268435777" symbol="checkLocation"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="102" pc="268435800" symbol="checkLocation"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="106" pc="268435868" symbol="checkLocation"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="107" pc="268435891" symbol="checkLocation"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="111" pc="268435959" symbol="checkLocation"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="112" pc="268435982" symbol="checkLocation"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="116" pc="268436050" symbol="checkLocation"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="117" pc="268436073" symbol="checkLocation"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="121" pc="268436141" symbol="checkLocation"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="122" pc="268436164" symbol="checkLocation"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="126" pc="268436232" symbol="checkLocation"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="127" pc="268436255" symbol="checkLocation"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="131" pc="268436323" symbol="checkLocation"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="132" pc="268436346" symbol="checkLocation"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="136" pc="268436377" symbol="checkLocation"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="139" pc="268436402" symbol="checkLocation"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="145" pc="268436412" symbol="startIsSetAsStartingPoint"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="146" pc="268436416" symbol="startIsSetAsStartingPoint"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="148" pc="268436440" symbol="startIsSetAsStartingPoint"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="150" pc="268436463" symbol="startIsSetAsStartingPoint"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="152" pc="268436483" symbol="startIsSetAsStartingPoint"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="157" pc="268436513" symbol="dictionariesArePopulated"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="158" pc="268436517" symbol="dictionariesArePopulated"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="159" pc="268436541" symbol="dictionariesArePopulated"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="161" pc="268436567" symbol="dictionariesArePopulated"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="162" pc="268436602" symbol="dictionariesArePopulated"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="164" pc="268436608" symbol="dictionariesArePopulated"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="165" pc="268436643" symbol="dictionariesArePopulated"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="168" pc="268436649" symbol="dictionariesArePopulated"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="169" pc="268436684" symbol="dictionariesArePopulated"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="171" pc="268436690" symbol="dictionariesArePopulated"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="172" pc="268436725" symbol="dictionariesArePopulated"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="175" pc="268436731" symbol="dictionariesArePopulated"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="180" pc="268436735" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="181" pc="268436739" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="183" pc="268436763" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="184" pc="268436786" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="185" pc="268436809" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="186" pc="268436829" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="188" pc="268436835" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="189" pc="268436858" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="190" pc="268436881" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="191" pc="268436901" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="193" pc="268436907" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="194" pc="268436930" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="195" pc="268436953" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="196" pc="268436973" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="198" pc="268436979" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="199" pc="268437002" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="200" pc="268437025" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="201" pc="268437045" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="203" pc="268437051" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="204" pc="268437074" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="205" pc="268437097" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="206" pc="268437117" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="208" pc="268437123" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="209" pc="268437146" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="210" pc="268437169" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="211" pc="268437189" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="213" pc="268437195" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="214" pc="268437218" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="215" pc="268437241" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="216" pc="268437261" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="218" pc="268437267" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="219" pc="268437290" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="220" pc="268437313" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="221" pc="268437333" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="226" pc="268437339" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="227" pc="268437356" symbol="splits"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="231" pc="268437360" symbol="put"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="233" pc="268437364" symbol="put"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="236" pc="268437383" symbol="put2"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="237" pc="268437387" symbol="put2"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="241" pc="268437411" symbol="onLayout"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="244" pc="268437416" symbol="onHide"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="248" pc="268437421" symbol="onShow"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="251" pc="268437426" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="257" pc="268437431" symbol="onTimerStart"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="259" pc="268437435" symbol="onTimerStart"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="263" pc="268437452" symbol="onTimerStop"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="265" pc="268437456" symbol="onTimerStop"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="269" pc="268437473" symbol="onTimerPause"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="271" pc="268437477" symbol="onTimerPause"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="275" pc="268437494" symbol="onTimerResume"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="277" pc="268437498" symbol="onTimerResume"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="281" pc="268437515" symbol="onTimerReset"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="283" pc="268437519" symbol="onTimerReset"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="284" pc="268437532" symbol="onTimerReset"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="285" pc="268437548" symbol="onTimerReset"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="288" pc="268437562" symbol="compute"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="290" pc="268437566" symbol="compute"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="291" pc="268437589" symbol="compute"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="294" pc="268437593" symbol="compute"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="295" pc="268437615" symbol="compute"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="297" pc="268437631" symbol="compute"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="298" pc="268437656" symbol="compute"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="299" pc="268437678" symbol="compute"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="301" pc="268437700" symbol="compute"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="307" pc="268437729" symbol="onUpdate"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="308" pc="268437733" symbol="onUpdate"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="310" pc="268437733" symbol="onUpdate"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="313" pc="268437808" symbol="onUpdate"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="314" pc="268437844" symbol="onUpdate"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="315" pc="268437856" symbol="onUpdate"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="316" pc="268437892" symbol="onUpdate"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="317" pc="268437905" symbol="onUpdate"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="318" pc="268437921" symbol="onUpdate"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="322" pc="268438002" symbol="onUpdate"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="326" pc="268438078" symbol="setPosition"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="327" pc="268438082" symbol="setPosition"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\VasaCoachField.mc" lineNum="328" pc="268438092" symbol="setPosition"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\PositionSampleApp.mc" lineNum="14" pc="268438109" symbol="initialize"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\PositionSampleApp.mc" lineNum="15" pc="268438113" symbol="initialize"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\PositionSampleApp.mc" lineNum="19" pc="268438132" symbol="onStart"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\PositionSampleApp.mc" lineNum="24" pc="268438137" symbol="onStop"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\PositionSampleApp.mc" lineNum="28" pc="268438142" symbol="onPosition"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\PositionSampleApp.mc" lineNum="29" pc="268438146" symbol="onPosition"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\PositionSampleApp.mc" lineNum="35" pc="268438167" symbol="getInitialView"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\PositionSampleApp.mc" lineNum="36" pc="268438171" symbol="getInitialView"/>
+<entry filename="C:\\Users\\die_d\\workspace\\VasaCoach\\source\\PositionSampleApp.mc" lineNum="37" pc="268438201" symbol="getInitialView"/>
+<entry filename="UnitTests" lineNum="4" pc="268438225" symbol="getTestObject"/>
+<entry filename="UnitTests" lineNum="5" pc="268438237" symbol="getTestObject"/>
+<entry filename="UnitTests" lineNum="11" pc="268438261" symbol="initialize"/>
+<entry filename="UnitTests" lineNum="12" pc="268438265" symbol="initialize"/>
+<entry filename="UnitTests" lineNum="13" pc="268438287" symbol="initialize"/>
+<entry filename="UnitTests" lineNum="14" pc="268438306" symbol="initialize"/>
+<entry filename="UnitTests" lineNum="15" pc="268438325" symbol="initialize"/>
+<entry filename="UnitTests" lineNum="16" pc="268438344" symbol="initialize"/>
+<entry filename="UnitTests" lineNum="17" pc="268438363" symbol="initialize"/>
+<entry filename="UnitTests" lineNum="18" pc="268438382" symbol="initialize"/>
+<entry filename="UnitTests" lineNum="20" pc="268438402" symbol="getTestName"/>
+<entry filename="UnitTests" lineNum="21" pc="268438406" symbol="getTestName"/>
+<entry filename="UnitTests" lineNum="23" pc="268438419" symbol="getNumberOfTests"/>
+<entry filename="UnitTests" lineNum="24" pc="268438423" symbol="getNumberOfTests"/>
+<entry filename="UnitTests" lineNum="26" pc="268438430" symbol="runTest"/>
+<entry filename="UnitTests" lineNum="27" pc="268438434" symbol="runTest"/>
+<entry filename="UnitTests" lineNum="28" pc="268438438" symbol="runTest"/>
+<entry filename="UnitTests" lineNum="29" pc="268438456" symbol="runTest"/>
+<entry filename="UnitTests" lineNum="31" pc="268438472" symbol="runTest"/>
+<entry filename="UnitTests" lineNum="32" pc="268438496" symbol="runTest"/>
+<entry filename="UnitTests" lineNum="33" pc="268438507" symbol="runTest"/>
+<entry filename="UnitTests" lineNum="34" pc="268438538" symbol="runTest"/>
+<entry filename="UnitTests" lineNum="35" pc="268438553" symbol="runTest"/>
+<entry filename="UnitTests" lineNum="37" pc="268438559" symbol="runTest"/>
+<entry filename="UnitTests" lineNum="40" pc="268438576" symbol="runTest"/>
+<entry filename="UnitTests" lineNum="41" pc="268438607" symbol="runTest"/>
+<entry filename="UnitTests" lineNum="42" pc="268438622" symbol="runTest"/>
+<entry filename="UnitTests" lineNum="44" pc="268438628" symbol="runTest"/>
+<entry filename="UnitTests" lineNum="47" pc="268438645" symbol="runTest"/>
+<entry filename="UnitTests" lineNum="48" pc="268438676" symbol="runTest"/>
+<entry filename="UnitTests" lineNum="49" pc="268438691" symbol="runTest"/>
+<entry filename="UnitTests" lineNum="51" pc="268438697" symbol="runTest"/>
+<entry filename="UnitTests" lineNum="53" pc="268438703" symbol="runTest"/>
+</pcToLineNum>
+<symbolTable>
+<entry field="true" id="8388698" method="true" symbol="start"/>
+<entry field="true" id="17" symbol="RUNNING"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="9" object="true" symbol="VasaCoachField"/>
+<entry field="true" id="49" symbol="Eldris"/>
+<entry field="true" id="55" symbol="Evertsberg"/>
+<entry field="true" id="35" symbol="locString"/>
+<entry id="11" object="true" symbol="RunNoEvil"/>
+<entry field="true" id="52" symbol="Mora"/>
+<entry field="true" id="30" symbol="controlNames"/>
+<entry id="8389748" method="true" symbol="onTimerStop"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="8389567" method="true" symbol="getNumberOfTests"/>
+<entry field="true" id="33" symbol="mLapCertainty"/>
+<entry field="true" id="8389570" method="true" symbol="getTestObject"/>
+<entry field="true" id="20" symbol="risberg"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry field="true" id="15" symbol="STOPPED"/>
+<entry field="true" id="28" symbol="longitudes"/>
+<entry field="true" id="12" symbol="logger"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry field="true" id="19" symbol="mangsbodarna"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="42" method="true" symbol="splits"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8388649" module="true" object="true" symbol="Test"/>
+<entry id="41" method="true" symbol="dictionariesArePopulated"/>
+<entry field="true" id="27" symbol="latitudes"/>
+<entry id="8389752" method="true" symbol="onTimerReset"/>
+<entry field="true" id="37" symbol="currentLatitude"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="56" symbol="AppName"/>
+<entry field="true" id="23" symbol="hokberg"/>
+<entry field="true" id="13" symbol="nameToId"/>
+<entry id="39" method="true" symbol="checkLocation"/>
+<entry field="true" id="50" symbol="Smagan"/>
+<entry field="true" id="51" symbol="Mangsbodarna"/>
+<entry field="true" id="57" symbol="positionView"/>
+<entry field="true" id="21" symbol="evertsberg"/>
+<entry field="true" id="16" symbol="PAUSED"/>
+<entry field="true" id="22" symbol="oxberg"/>
+<entry id="40" method="true" symbol="startIsSetAsStartingPoint"/>
+<entry field="true" id="26" symbol="checkPoints"/>
+<entry field="true" id="47" symbol="LauncherIcon"/>
+<entry id="10" object="true" symbol="PositionSampleApp"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8389568" method="true" symbol="runTest"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389137" method="true" symbol="compute"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="38" symbol="lastCheckPoint"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="8389747" method="true" symbol="onTimerStart"/>
+<entry field="true" id="32" symbol="counter"/>
+<entry field="true" id="29" symbol="controlLongitudes"/>
+<entry field="true" id="31" symbol="posnInfo"/>
+<entry field="true" id="8389792" method="true" symbol="getTestName"/>
+<entry field="true" id="34" symbol="mTimerState"/>
+<entry field="true" id="25" symbol="mora"/>
+<entry field="true" id="54" symbol="Risberg"/>
+<entry id="43" method="true" symbol="put2"/>
+<entry id="8389750" method="true" symbol="onTimerResume"/>
+<entry id="8388788" method="true" symbol="put"/>
+<entry id="58" method="true" symbol="onPosition"/>
+<entry id="46" module="true" symbol="Layouts"/>
+<entry field="true" id="36" symbol="currentLongitud"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8389749" method="true" symbol="onTimerPause"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry id="44" method="true" symbol="setPosition"/>
+<entry field="true" id="53" symbol="Oxberg"/>
+<entry id="45" module="true" symbol="Menus"/>
+<entry field="true" id="48" symbol="Hokberg"/>
+<entry id="8389751" method="true" symbol="onTimerLap"/>
+<entry field="true" id="24" symbol="eldris"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry field="true" id="18" symbol="smagan"/>
+<entry field="true" id="14" symbol="idToName"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435566" name="info" stackId="1" startPc="268435460"/>
+<entry endPc="268436412" name="long" stackId="2" startPc="268435567"/>
+<entry endPc="268436412" name="lat" stackId="1" startPc="268435567"/>
+<entry endPc="268436512" name="result" stackId="3" startPc="268436416"/>
+<entry endPc="268436512" name="s" stackId="2" startPc="268436416"/>
+<entry endPc="268436513" name="logger" stackId="1" startPc="268436412"/>
+<entry endPc="268436734" name="positionView" stackId="2" startPc="268436517"/>
+<entry endPc="268436735" name="logger" stackId="1" startPc="268436513"/>
+<entry endPc="268437359" name="result" stackId="3" startPc="268436739"/>
+<entry endPc="268437359" name="positionView" stackId="2" startPc="268436739"/>
+<entry endPc="268437360" name="logger" stackId="1" startPc="268436735"/>
+<entry endPc="268437383" name="message" stackId="1" startPc="268437360"/>
+<entry endPc="268437411" name="topic" stackId="1" startPc="268437383"/>
+<entry endPc="268437411" name="message" stackId="2" startPc="268437383"/>
+<entry endPc="268437416" name="dc" stackId="1" startPc="268437411"/>
+<entry endPc="268437729" name="info" stackId="1" startPc="268437562"/>
+<entry endPc="268438077" name="string" stackId="2" startPc="268437733"/>
+<entry endPc="268438078" name="dc" stackId="1" startPc="268437729"/>
+<entry endPc="268438109" name="info" stackId="1" startPc="268438078"/>
+<entry endPc="268438137" name="state" stackId="1" startPc="268438132"/>
+<entry endPc="268438142" name="state" stackId="1" startPc="268438137"/>
+<entry endPc="268438167" name="info" stackId="1" startPc="268438142"/>
+<entry endPc="268438419" name="i" stackId="1" startPc="268438402"/>
+<entry endPc="268438562" name="result" stackId="3" startPc="268438507"/>
+<entry endPc="268438631" name="result" stackId="4" startPc="268438576"/>
+<entry endPc="268438700" name="result" stackId="5" startPc="268438645"/>
+<entry endPc="268438706" name="id" stackId="2" startPc="268438434"/>
+<entry endPc="268438707" name="test" stackId="1" startPc="268438430"/>
+</localVars>
+<annotations>
+<annotationEntry annotation="test" class="VasaCoachField" module="globals" symbol="startIsSetAsStartingPoint"/>
+<annotationEntry annotation="test" class="VasaCoachField" module="globals" symbol="dictionariesArePopulated"/>
+<annotationEntry annotation="test" class="VasaCoachField" module="globals" symbol="splits"/>
+</annotations>
+<functions>
+<functionEntry accessMode="public" name="initialize" parent="VasaCoachField">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="checkLocation" parent="VasaCoachField">
+<param id="lat"/>
+<param id="long"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="startIsSetAsStartingPoint" parent="VasaCoachField">
+<param id="logger"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="dictionariesArePopulated" parent="VasaCoachField">
+<param id="logger"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="splits" parent="VasaCoachField">
+<param id="logger"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="put" parent="VasaCoachField">
+<param id="message"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="put2" parent="VasaCoachField">
+<param id="topic"/>
+<param id="message"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="VasaCoachField">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Load your resources here<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="VasaCoachField">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="VasaCoachField">
+<documentation><![CDATA[<div class="description"> Restore the state of the app and prepare the view to be shown<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="onTimerLap" parent="VasaCoachField">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onTimerStart" parent="VasaCoachField">
+<documentation><![CDATA[<div class="description"> The timer was started, so set the state to running.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="onTimerStop" parent="VasaCoachField">
+<documentation><![CDATA[<div class="description"> The timer was stopped, so set the state to stopped.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="onTimerPause" parent="VasaCoachField">
+<documentation><![CDATA[<div class="description"> The timer was started, so set the state to running.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="onTimerResume" parent="VasaCoachField">
+<documentation><![CDATA[<div class="description"> The timer was stopped, so set the state to stopped.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="onTimerReset" parent="VasaCoachField">
+<documentation><![CDATA[<div class="description"> The timer was reeset, so reset all our tracking variables<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="compute" parent="VasaCoachField">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="VasaCoachField">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Update the view<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="setPosition" parent="VasaCoachField">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="PositionSampleApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="PositionSampleApp">
+<param id="state"/>
+<documentation><![CDATA[<div class="description"> onStart() is called on application start up<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="PositionSampleApp">
+<param id="state"/>
+<documentation><![CDATA[<div class="description"> onStop() is called when your application is exiting<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="onPosition" parent="PositionSampleApp">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="PositionSampleApp">
+<documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="getTestObject">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="RunNoEvil">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getTestName" parent="RunNoEvil">
+<param id="i"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getNumberOfTests" parent="RunNoEvil">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="runTest" parent="RunNoEvil">
+<param id="test"/>
+<documentation/>
+</functionEntry>
+</functions>
+<dataEntryOffsetMappings>
+<dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="190" parentId="globals" symbolId="RunNoEvil" type="class"/>
+<dataEntry offset="285" parentId="globals" symbolId="VasaCoachField" type="class"/>
+<dataEntry offset="676" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="755" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="794" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="825" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="856" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="887" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="918" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="1021" parentId="globals" symbolId="PositionSampleApp" type="class"/>
+</dataEntryOffsetMappings>
+</debugInfo>
