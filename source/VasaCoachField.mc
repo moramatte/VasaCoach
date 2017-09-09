@@ -12,6 +12,8 @@ using Toybox.Activity as Act;
 
 class VasaCoachField extends Ui.DataField {
 
+ var useTest = true;
+
  enum
     {
         STOPPED,
@@ -23,6 +25,20 @@ class VasaCoachField extends Ui.DataField {
     var checkPoints = ["Start", "Smågan", "Mångsbodarna", "Risberg", "Evertsberg", "Oxberg", "Hökberg", "Eldris", "Mora"];
     var latitudes = [61.1613853, 61.09999, 61.07859879999999, 61.0857379, 61.1345709, 61.1167317,61.066667 	, 61.01459, 61.004878];
     var longitudes = [13.263015600000017, 13.45, 13.620492799999965, 13.771363999999949, 13.95615399999997, 14.173285899999996, 14.316667000000052, 14.40676, 14.537003000000027];
+
+
+var testLongitudes = {
+    start => 16.253273,
+    smagan => 16.255633,
+    mangsbodarna => 16.260783,
+    risberg => 16.264431,
+    evertsberg => 16.266834,
+    oxberg => 16.273700,
+    hokberg => 16.285717,
+    eldris => 16.290823,
+    mora => 16.296960
+};
+
 
  var controlLongitudes = {
     start => 13.263015600000017,
@@ -87,53 +103,58 @@ class VasaCoachField extends Ui.DataField {
     }
     
     function checkLocation( lat, long){
-       put2(" checkLoc enter", lastCheckPoint );
+      // put2(" checkLoc enter", lastCheckPoint );
+       
+       var longs = controlLongitudes;
+       if (useTest){
+          longs = testLongitudes;
+       }
      
        
        if (lastCheckPoint.equals("")){
            lastCheckPoint = controlNames[start];            
        }else if (lastCheckPoint.equals(controlNames[start])){      
-           if (long >= controlLongitudes[smagan]){
+           if (long >= longs[smagan]){
               lastCheckPoint = controlNames[smagan];          
            }
        }
        else if (lastCheckPoint.equals(controlNames[smagan])){      
-           if (long >= controlLongitudes[mangsbodarna]){
+           if (long >= longs[mangsbodarna]){
               lastCheckPoint = controlNames[mangsbodarna];          
            }
        }
        else if (lastCheckPoint.equals(controlNames[mangsbodarna])){      
-           if (long >= controlLongitudes[risberg]){
+           if (long >= longs[risberg]){
               lastCheckPoint = controlNames[risberg];          
            }
        }
        else if (lastCheckPoint.equals(controlNames[risberg])){      
-           if (long >= controlLongitudes[evertsberg]){
+           if (long >= longs[evertsberg]){
               lastCheckPoint = controlNames[evertsberg];          
            }
        }
        else if (lastCheckPoint.equals(controlNames[evertsberg])){      
-           if (long >= controlLongitudes[oxberg]){
+           if (long >= longs[oxberg]){
               lastCheckPoint = controlNames[oxberg];          
            }
        }
        else if (lastCheckPoint.equals(controlNames[oxberg])){      
-           if (long >= controlLongitudes[hokberg]){
+           if (long >= longs[hokberg]){
               lastCheckPoint = controlNames[hokberg];          
            }
        }
        else if (lastCheckPoint.equals(controlNames[hokberg])){      
-           if (long >= controlLongitudes[eldris]){
+           if (long >= longs[eldris]){
               lastCheckPoint = controlNames[eldris];          
            }
        }
        else if (lastCheckPoint.equals(controlNames[eldris])){      
-           if (long >= controlLongitudes[mora]){
+           if (long >= longs[mora]){
               lastCheckPoint = controlNames[mora];          
            }
        }
        
-       	put2("checkLoc exit", lastCheckPoint);
+      // 	put2("checkLoc exit", lastCheckPoint);
        
        
        return lastCheckPoint;       
@@ -228,6 +249,60 @@ class VasaCoachField extends Ui.DataField {
     	
 	}
 	
+	(:test)
+	function splitsTest(logger) {
+    	var positionView = new VasaCoachField();  
+    	
+    	positionView.useTest = true;  	
+    	
+    	var result = positionView.checkLocation(61.09999, 16.255633);
+    	if (!result.equals(positionView.smagan)){
+    	    positionView.put(" Smagan failed:  " + result);
+    	    return false;
+    	}  	
+    	result = positionView.checkLocation( 61.07859879999999, 16.260783);
+    	if (!result.equals(positionView.mangsbodarna)){
+    	    positionView.put(" Mangsbodarna failed: " + result);
+    	    return false;
+    	}  	
+    	result = positionView.checkLocation( 61.07859879999999, 16.264431);
+    	if (!result.equals(positionView.risberg)){
+    	    positionView.put("Risberg" + result);
+    	    return false;
+    	}  	
+    	result = positionView.checkLocation( 61.07859879999999, 16.266834);
+    	if (!result.equals(positionView.evertsberg)){
+    	    positionView.put("Evertsberg" + result);
+    	    return false;
+    	}  	
+    	result = positionView.checkLocation( 61.07859879999999, 16.273700);
+    	if (!result.equals(positionView.oxberg)){
+    	    positionView.put("Oxberg" + result);
+    	    return false;
+    	}  	
+    	result = positionView.checkLocation( 61.07859879999999, 16.285717);
+    	if (!result.equals(positionView.hokberg)){
+    	    positionView.put("Hokberg" + result);
+    	    return false;
+    	}  	
+    	result = positionView.checkLocation( 61.07859879999999, 16.290823);
+    	if (!result.equals(positionView.eldris)){
+    	    positionView.put("Eldris" + result);
+    	    return false;
+    	}  	
+    	result = positionView.checkLocation( 61.07859879999999, 16.296960);
+    	if (!result.equals(positionView.mora)){
+    	    positionView.put("Mora" + result);
+    	    return false;
+    	}  	
+    	
+    	
+    	
+    	positionView.put(" smagan: 4 ");
+    	return true;	
+    	
+	}
+	
 	function put(message){
       //   Sys.println(Lang.format("f($1$)", [ message ]));
           Sys.println(message );
@@ -298,9 +373,30 @@ class VasaCoachField extends Ui.DataField {
         currentLongitud = locString[0];
         currentLatitude = locString[1];
         
-        checkLocation(currentLatitude, currentLongitud);      
+        var lastLocation = lastCheckPoint;
+        checkLocation(currentLatitude, currentLongitud);  
+        
+        if (lastCheckPoint != lastLocation){
+           put("Beeping: lastCheckPoint: " + lastCheckPoint + " lastLocation: " + lastLocation);
+           beep();
+        }    
         
         
+    }
+    
+    function beep(){
+        if (Attention has :vibrate) {
+             var vibeData =
+                  [
+                      new Attention.VibeProfile(50, 1000) // On for two seconds                    
+                  ];
+                   Attention.vibrate(vibeData);
+            }
+                      
+            if (Attention has :playTone) {
+               Attention.playTone(Attention.TONE_LOUD_BEEP);
+            }           
+            
     }
 
     //! Update the view
@@ -314,7 +410,7 @@ class VasaCoachField extends Ui.DataField {
         dc.clear();
         dc.setColor( Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT );
         if( posnInfo != null ) {            
-            string = "Location = " + locString;
+            string = "Location = " + lastCheckPoint + " : " + locString;
             dc.drawText( (dc.getWidth() / 2), ((dc.getHeight() / 2) - 40), Gfx.FONT_SMALL, string, Gfx.TEXT_JUSTIFY_CENTER );
            
         }
