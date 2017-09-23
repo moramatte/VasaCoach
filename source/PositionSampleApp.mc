@@ -13,7 +13,16 @@ class PositionSampleApp extends App.AppBase {
     
     function initialize() {
         AppBase.initialize();
+        
+             
+      //  var smag = App.getApp().getProperty("Smagan");
+      //  put("Smag: " + smag);
     }
+    
+    function put(message){
+        System.println(message );
+    }
+    
 
     //! onStart() is called on application start up
     function onStart(state) {

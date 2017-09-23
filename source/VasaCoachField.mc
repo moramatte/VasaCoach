@@ -12,7 +12,8 @@ using Toybox.Activity as Act;
 
 class VasaCoachField extends Ui.DataField {
 
- var useTest = true;
+ var useTest = false;
+ var mockSettings = false;
 
  enum
     {
@@ -199,7 +200,9 @@ var testLongitudes = {
 	
 	(:test)
 	function splits(logger) {
-    	var positionView = new VasaCoachField();    	
+    	var positionView = new VasaCoachField();
+    	
+    	positionView.useTest = false;      	
     	
     	var result = positionView.checkLocation(61.09999, 13.45);
     	if (!result.equals(positionView.smagan)){
@@ -359,6 +362,58 @@ var testLongitudes = {
         mTimerState = STOPPED;
         mLapCertainty = "";
     }
+    
+    function updateEstimate(elapsedTimeMs, checkPoint){
+       if (checkPoint.equals(controlNames[smagan])){
+           var target = getTargetTimeTo(controlNames[smagan]); 
+           var diff = elapsedTimeMs - 3440;
+       }
+    }
+    
+    (:test)
+	function getTargetTimeToTest(logger) {
+	   
+	    var positionView = new VasaCoachField();
+	       	
+       	positionView.useTest = true; 
+       	positionView.mockSettings = true; 	
+    	
+    	if ( positionView.getTargetTimeTo("Smagan") != 56){ return false; }
+    	if ( positionView.getTargetTimeTo("Mangsbodarna") != 48){ return false; }
+    	if ( positionView.getTargetTimeTo("Risberg") != 39){ return false; }
+    	if ( positionView.getTargetTimeTo("Evertsberg") != 51){ return false; }
+    	if ( positionView.getTargetTimeTo("Oxberg") != 53){ return false; }
+    	if ( positionView.getTargetTimeTo("Hokberg") != 39){ return false; }
+    	if ( positionView.getTargetTimeTo("Eldris") != 39){ return false; }
+    	if ( positionView.getTargetTimeTo("Mora") != 31){ return false; }
+    	return true;
+	}
+    
+    function getTargetTimeTo(control){
+       if (mockSettings){
+          put("Mock ok");
+          return getTargetTimeTo_Mock(control);
+       }
+       
+       var mySetting = app.Application.getApp().getProperty(control);
+       put2("Target time from settings: ", mySetting);
+       
+       return mySetting;
+    }
+    
+    function getTargetTimeTo_Mock(control){
+       if (control.equals(controlNames[smagan])){ return 56;  }
+       else if (control.equals(controlNames[mangsbodarna])){ return 48;  }
+       else if (control.equals(controlNames[risberg])){ return 39;  }
+       else if (control.equals(controlNames[evertsberg])){ return 51;  }
+       else if (control.equals(controlNames[oxberg])){ return 53;  }
+       else if (control.equals(controlNames[hokberg])){ return 39;  }
+       else if (control.equals(controlNames[eldris])){ return 39;  }
+       else if (control.equals(controlNames[mora])){ return 31;  }
+       
+       put("Found no target time for: " + control);
+       put("Ref: " + view.controlNames[smagan]);
+    }
 
     function compute(info)
     {
@@ -370,16 +425,19 @@ var testLongitudes = {
          posnInfo = info.currentLocation;
          
         locString = info.currentLocation.toDegrees();
-        currentLongitud = locString[0];
-        currentLatitude = locString[1];
+        currentLongitud = locString[1];
+        currentLatitude = locString[0];
         
-        var lastLocation = lastCheckPoint;
-        checkLocation(currentLatitude, currentLongitud);  
+        if (mTimerState == RUNNING){
+           var lastLocation = lastCheckPoint;
+           checkLocation(currentLatitude, currentLongitud);  
         
-        if (lastCheckPoint != lastLocation){
-           put("Beeping: lastCheckPoint: " + lastCheckPoint + " lastLocation: " + lastLocation);
-           beep();
-        }    
+           if (lastCheckPoint != lastLocation){
+              updateEstimate(info.elapsedTime, lastCheckPoint);
+              put("Beeping: lastCheckPoint: " + lastCheckPoint + " lastLocation: " + lastLocation);
+              beep();
+           }    
+        }
         
         
     }
@@ -410,12 +468,12 @@ var testLongitudes = {
         dc.clear();
         dc.setColor( Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT );
         if( posnInfo != null ) {            
-            string = "Location = " + lastCheckPoint + " : " + locString;
+            string = "" + lastCheckPoint + " : " + currentLongitud;
             dc.drawText( (dc.getWidth() / 2), ((dc.getHeight() / 2) - 40), Gfx.FONT_SMALL, string, Gfx.TEXT_JUSTIFY_CENTER );
            
         }
         else {
-            dc.drawText( (dc.getWidth() / 2), (dc.getHeight() / 2), Gfx.FONT_SMALL, "No position info", Gfx.TEXT_JUSTIFY_CENTER );
+            dc.drawText( (dc.getWidth() / 2), (dc.getHeight() / 2), Gfx.FONT_SMALL, "No position info: " , Gfx.TEXT_JUSTIFY_CENTER );
         }
     }
 

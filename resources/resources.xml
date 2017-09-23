@@ -1,2 +1,58 @@
 <resources>
+
+    <properties>
+        <property id="maxhr_prop" type="number">165</property>
+		<property id="Smagan" type="number">0x000038</property>
+	    <property id="Mangsbodarna" type="number">0x000030</property>
+	    <property id="Risberg" type="number">0x000026</property>
+	    <property id="Evertsberg" type="number">0x000033</property>
+	    <property id="Oxberg" type="number">0x000035</property>
+	    <property id="Hokberg" type="number">0x000027</property>
+	    <property id="Eldris" type="number">0x000027</property>
+	    <property id="Mora" type="number">0x000020</property>
+    </properties>
+
+    <strings>
+       <string id="maxhr_title">Maximum Heart Rate</string>
+       <string id="hr_out_of_range_msg">Max HR must be between 100 and 230</string>
+	   <string id="Smagan_time_invalid">Smagan time invalid</string>
+	   <string id="Mangsbodarna_time_invalid">Mangsbodarna time invalid</string>
+	   <string id="Risberg_time_invalid">Risberg time invalid</string>
+	   <string id="Evertsberg_time_invalid">Evertsberg time invalid</string>
+	   <string id="Oxberg_time_invalid">Oxberg time invalid</string>
+	   <string id="Hokberg_time_invalid">Hokberg time invalid</string>
+	   <string id="Eldris_time_invalid">Eldris time invalid</string>
+	   <string id="Mora_time_invalid">Mora time invalid</string>
+    </strings>
+
+    <settings>
+        <setting propertyKey="maxhr_prop" title="maxhr_title">
+            <settingConfig type="numeric" required="true" min="100" max="230" errorMessage="hr_out_of_range_msg"/>
+        </setting>
+		 <setting propertyKey="Smagan" title="Smagan" >
+            <settingConfig type="numeric" required="true" min="10" max="230" errorMessage="Smagan_time_invalid"/>
+        </setting>
+		<setting propertyKey="Mangsbodarna" title="Mangsbodarna" >
+            <settingConfig type="numeric" required="true" min="10" max="230" errorMessage="Mangsbodarna_time_invalid"/>
+        </setting>
+		<setting propertyKey="Risberg" title="Risberg" >
+            <settingConfig type="numeric" required="true" min="10" max="230" errorMessage="Risberg_time_invalid"/>
+        </setting>
+		<setting propertyKey="Evertsberg" title="Evertsberg" >
+            <settingConfig type="numeric" required="true" min="10" max="230" errorMessage="Evertsberg_time_invalid"/>
+        </setting>
+		<setting propertyKey="Oxberg" title="Oxberg" >
+            <settingConfig type="numeric" required="true" min="10" max="230" errorMessage="Oxberg_time_invalid"/>
+        </setting>
+		<setting propertyKey="Hokberg" title="Hokberg" >
+            <settingConfig type="numeric" required="true" min="10" max="230" errorMessage="Hokberg_time_invalid"/>
+        </setting>
+		<setting propertyKey="Eldris" title="Eldris" >
+            <settingConfig type="numeric" required="true" min="10" max="230" errorMessage="Eldris_time_invalid"/>
+        </setting>
+		<setting propertyKey="Mora" title="Mora" >
+            <settingConfig type="numeric" required="true" min="10" max="230" errorMessage="Mora_time_invalid"/>
+        </setting>
+
+    </settings>
 </resources>
