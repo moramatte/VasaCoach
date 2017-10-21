@@ -9,6 +9,7 @@ using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
 using Toybox.Lang as Lang;
 using Toybox.Activity as Act;
+using Toybox.Time as Time;
 
 class VasaCoachField extends Ui.DataField {
 
@@ -371,7 +372,7 @@ var testLongitudes = {
     }
     
     (:test)
-	function getTargetTimeToTest(logger) {
+	function getTargetTimeToTest_Mock(logger) {
 	   
 	    var positionView = new VasaCoachField();
 	       	
@@ -388,7 +389,43 @@ var testLongitudes = {
     	if ( positionView.getTargetTimeTo("Mora") != 31){ return false; }
     	return true;
 	}
-    
+	
+	function getMinutesFrom8AM(hour, minute){
+	    var hoursPassed8 = hour - 8;
+	    var minutesFromHours = hoursPassed8 * 60;
+	    
+	    return minutesFromHours + minute;	    
+	}
+	
+	(:test)
+	function getMinutesFrom8AM_Test(logger){
+	  var positionView = new VasaCoachField();
+	 
+       if (positionView.getMinutesFrom8AM(8, 3) != 3) { return false; }
+       if (positionView.getMinutesFrom8AM(9, 0) != 60) { return false; }
+       if (positionView.getMinutesFrom8AM(10, 39) != 159) { return false; }
+       if (positionView.getMinutesFrom8AM(14, 59) != 419) { return false ; }	
+	
+	   var today = Time.Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+       var dateString = Lang.format(
+          "$1$:$2$:$3$ $4$ $5$ $6$ $7$",
+           [
+            today.hour,
+            today.min,
+            today.sec,
+            today.day_of_week,
+            today.day,
+            today.month,
+            today.year
+           ]
+         );
+         
+         var realMinuteCheck = positionView.getMinutesFrom8AM(today.hour, today.min);
+         
+         System.println(dateString); // e.g. "16:28:32 Wed 1 Mar 2017"
+         return realMinuteCheck > 0;
+	}
+	    
     function getTargetTimeTo(control){
        if (mockSettings){
           put("Mock ok");
