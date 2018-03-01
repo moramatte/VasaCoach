@@ -87,6 +87,7 @@ var testLongitudes = {
     var locString;
     var currentLongitud = 60.0;
     var currentLatitude = 14.0;
+    var currentTarget = "0";
     
     var lastCheckPoint = "";
 
@@ -117,42 +118,50 @@ var testLongitudes = {
            lastCheckPoint = controlNames[start];            
        }else if (lastCheckPoint.equals(controlNames[start])){      
            if (long >= longs[smagan]){
-              lastCheckPoint = controlNames[smagan];          
+              lastCheckPoint = controlNames[smagan];
+              currentTarget = "8:56";          
            }
        }
        else if (lastCheckPoint.equals(controlNames[smagan])){      
            if (long >= longs[mangsbodarna]){
-              lastCheckPoint = controlNames[mangsbodarna];          
+              lastCheckPoint = controlNames[mangsbodarna];
+              currentTarget = "09:43";          
            }
        }
        else if (lastCheckPoint.equals(controlNames[mangsbodarna])){      
            if (long >= longs[risberg]){
-              lastCheckPoint = controlNames[risberg];          
+              lastCheckPoint = controlNames[risberg]; 
+              currentTarget = "10:22";         
            }
        }
        else if (lastCheckPoint.equals(controlNames[risberg])){      
            if (long >= longs[evertsberg]){
-              lastCheckPoint = controlNames[evertsberg];          
+              lastCheckPoint = controlNames[evertsberg];  
+              currentTarget = "11:12";        
            }
        }
        else if (lastCheckPoint.equals(controlNames[evertsberg])){      
            if (long >= longs[oxberg]){
-              lastCheckPoint = controlNames[oxberg];          
+              lastCheckPoint = controlNames[oxberg]; 
+              currentTarget = "12:04";         
            }
        }
        else if (lastCheckPoint.equals(controlNames[oxberg])){      
            if (long >= longs[hokberg]){
-              lastCheckPoint = controlNames[hokberg];          
+              lastCheckPoint = controlNames[hokberg];
+              currentTarget = "12:43";          
            }
        }
        else if (lastCheckPoint.equals(controlNames[hokberg])){      
            if (long >= longs[eldris]){
-              lastCheckPoint = controlNames[eldris];          
+              lastCheckPoint = controlNames[eldris];
+              currentTarget = "13:23";          
            }
        }
        else if (lastCheckPoint.equals(controlNames[eldris])){      
            if (long >= longs[mora]){
-              lastCheckPoint = controlNames[mora];          
+              lastCheckPoint = controlNames[mora];
+              currentTarget = "13:53";          
            }
        }
        
@@ -470,7 +479,7 @@ var testLongitudes = {
            checkLocation(currentLatitude, currentLongitud);  
         
            if (lastCheckPoint != lastLocation){
-              updateEstimate(info.elapsedTime, lastCheckPoint);
+           //   updateEstimate(info.elapsedTime, lastCheckPoint);
               put("Beeping: lastCheckPoint: " + lastCheckPoint + " lastLocation: " + lastLocation);
               beep();
            }    
@@ -505,8 +514,8 @@ var testLongitudes = {
         dc.clear();
         dc.setColor( Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT );
         if( posnInfo != null ) {            
-            string = "" + lastCheckPoint + " : " + currentLongitud;
-            dc.drawText( (dc.getWidth() / 2), ((dc.getHeight() / 2) - 40), Gfx.FONT_SMALL, string, Gfx.TEXT_JUSTIFY_CENTER );
+            string = "" + lastCheckPoint + " : " + currentTarget;
+            dc.drawText( (dc.getWidth() / 2), ((dc.getHeight() / 2) - 0), Gfx.FONT_SMALL, string, Gfx.TEXT_JUSTIFY_CENTER );
            
         }
         else {
